@@ -72,7 +72,12 @@
 
 .glyphicon-record, .glyphicon-send {
   font-size: 20px;
+}
 
+.apps-small {
+  position: relative;
+  bottom: 0;
+  right: 0;
 }
 
 footer {
@@ -98,7 +103,7 @@ footer li {
     justify-content: flex-end;
   }
 
-  .flex-column {
+  #conductor-text {
     width: auto;
     display: flex;
     flex-direction: column;
@@ -114,6 +119,12 @@ footer li {
     border: 1px solid #ffffff;
     margin: 15px;
     padding: 7px;
+  }
+
+  .apps-small{
+    position: absolute;
+    bottom: 42px;
+    right: 56px;
   }
 
 }

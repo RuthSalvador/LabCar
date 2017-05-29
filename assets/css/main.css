@@ -51,7 +51,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 #conductor-text {
@@ -65,6 +65,20 @@
     border-left-color: transparent;
     margin-left: -30px;
     margin-right: 180px;
+  }
+
+  #conductor {
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #conductor-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 
   }
 }

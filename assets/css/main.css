@@ -133,6 +133,10 @@ footer li {
   .apps-small{
     position: absolute;
     bottom: 42px;
-    right: 56px;
+    right: 7%;
+    padding: 0px;
+  }
+  .apps-small img {
+    padding: 0px;
   }
 }

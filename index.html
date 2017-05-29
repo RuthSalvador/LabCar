@@ -78,19 +78,50 @@
     </section>
     <section id="conductor">
       <div id="conductor-text" class="pad-30 fam-raleway">
-
-          <h2><b>Conduce cuando quieras</b></h2>
-          <h4><p>LabCar es una opción flexible para alcanzar</p><p> tus metas financieras.</p></h4>
-          <button type="button" name="button" class="btn btn-warning btn-lg bg-lab navbar-text"><b>Conviértete en un conductor</b></button>
-
+        <h2><b>Conduce cuando quieras</b></h2>
+        <h4><p>LabCar es una opción flexible para alcanzar</p><p> tus metas financieras.</p></h4>
+        <button type="button" name="button" class="btn btn-warning btn-lg bg-lab navbar-text"><b>Conviértete en un conductor</b></button>
       </div>
+    </section>
+    <section id="tarifa" class="bg-lab fam-opens">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <h3>Tarifas</h3>
+            <h4>Consulta las tarifas LabCar aquí</h4>
+            <br>
+            <form class="form-horizontal text-center">
+              <div class="form-group">
+                <label for="partida" class="col-xs-1 control-label"><span class="glyphicon glyphicon-record"></span></label>
+                <div class="col-xs-11">
+                  <input type="text" class="form-control" id="partida" placeholder="Ingrese punto de partida">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="llegada" class="col-xs-1 control-label"><span class="glyphicon glyphicon-send"></span></label>
+                <div class="col-xs-11">
+                  <input type="text" class="form-control" id="llegada" placeholder="Ingrese su destino">
+                </div>
+              </div>
+              <button type="button" id="ruta" name="button" class="btn btn-default btn-lg navbar-text"><b class="text-uppercase">¡trazar ruta!</b></button>
+            </form>
+          </div>
+          <div class="col-sm-6 visible-sm visible-md visible-lg">
+            <div class="border-map">
+              <div id="map"></div>
+            </div>
 
+          </div>
+        </div>
+      </div>
     </section>
 
 
 
 
 
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASVHK3b7ClnImmcEE7HBAYBNSjKPZOO9Q&callback=initMap"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>

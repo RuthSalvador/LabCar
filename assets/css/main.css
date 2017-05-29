@@ -29,3 +29,10 @@
 .pad-30 {
   padding: 30px;
 }
+
+#regis, #o-bien {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}

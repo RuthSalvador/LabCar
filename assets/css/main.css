@@ -1,0 +1,31 @@
+.fam-opens {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fam-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.bg-lab {
+  background-color: #f7b617;
+  color: #ffffff;
+}
+
+#hero {
+  background-image: url(../img/taxi.jpg);
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.flex-center-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.pad-30 {
+  padding: 30px;
+}

@@ -37,6 +37,19 @@
   outline: none;
 }
 
-.border-white {
+.border-change {
   border: 1px solid #fff;
+}
+
+.border-change h4 {
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .border-change {
+    border-left-color: transparent;
+    margin-left: -30px;
+    margin-right: 180px;
+
+  }
 }

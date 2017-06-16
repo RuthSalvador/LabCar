@@ -25,7 +25,8 @@ Luego de concluir con la parte mobile de cada sección, se continuó con la estr
 ### Google Maps
 
 También se solicitó pedir ubicación del google maps. Reto completado
-Se pudo concluir hasta el autocompletado.
+* Puede ingresar su destino y se autocompleta.
+* Puede trazar ruta desde el punto de partida a llegada.
 
 ##  Créditos
  * [RuthSalvador] (https://github.com/RuthSalvador)

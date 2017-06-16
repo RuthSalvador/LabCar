@@ -96,6 +96,11 @@ footer li {
   padding: 7px 0;
 }
 
+#tariff{
+  color: #2b2b2b;
+  margin-bottom: 42px;
+}
+
 @media (min-width: 768px) {
   #nav-menu {
     float: right;
